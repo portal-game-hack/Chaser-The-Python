@@ -9,7 +9,7 @@ Chaser the Python converts the classic single player game into a fun, multi-play
 ### Technologies involved
 
 ### Pipeline
-> Azure Pipelines badge here
+[![Build Status](https://dev.azure.com/aunnikrishnan/aunnikrishnan/_apis/build/status/portal-game-hack.Chaser-The-Python?branchName=master)](https://dev.azure.com/aunnikrishnan/aunnikrishnan/_build/latest?definitionId=1&branchName=master)
 
 ### Team Members 
 1. Tai Wai Ho 
