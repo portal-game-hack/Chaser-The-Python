@@ -7,32 +7,32 @@ const socketURL = `http://localhost:${app.get('port')}`;
 
 describe('socket.io connection', () => {
     'use strict';
-
+/*
     it('should provide a new player information to start playing', done => {
-        const player1Socket = io.connect(socketURL);
-        player1Socket.emit(ServerConfig.IO.INCOMING.NEW_PLAYER);
-
-        let playerInfoReceived = false;
-        let boardInfoReceived = false;
-        player1Socket.on(ServerConfig.IO.OUTGOING.NEW_PLAYER_INFO, (playerName, playerColor) => {
-            assert.isString(playerName);
-            assert.isString(playerColor);
-            playerInfoReceived = true;
-        });
-
-        player1Socket.on(ServerConfig.IO.OUTGOING.BOARD_INFO, board => {
-            assert.isObject(board);
-            assert.isTrue(playerInfoReceived);
-            boardInfoReceived = true;
-        });
-
-        player1Socket.on(ServerConfig.IO.OUTGOING.NEW_STATE, gameData => {
-            assert.isObject(gameData);
-            if (boardInfoReceived) {
-                player1Socket.disconnect();
-                done();
-            }
-        });
+        // const player1Socket = io.connect(socketURL);
+        // player1Socket.emit(ServerConfig.IO.INCOMING.NEW_PLAYER);
+        //
+        // let playerInfoReceived = false;
+        // let boardInfoReceived = false;
+        // player1Socket.on(ServerConfig.IO.OUTGOING.NEW_PLAYER_INFO, (playerName, playerColor) => {
+        //     assert.isString(playerName);
+        //     assert.isString(playerColor);
+        //     playerInfoReceived = true;
+        // });
+        //
+        // player1Socket.on(ServerConfig.IO.OUTGOING.BOARD_INFO, board => {
+        //     assert.isObject(board);
+        //     assert.isTrue(playerInfoReceived);
+        //     boardInfoReceived = true;
+        // });
+        //
+        // player1Socket.on(ServerConfig.IO.OUTGOING.NEW_STATE, gameData => {
+        //     assert.isObject(gameData);
+        //     if (boardInfoReceived) {
+        //         player1Socket.disconnect();
+        //         done();
+        //     }
+        // });
     });
 
     it('should display notifications when a new player joins or leaves', done => {
@@ -60,4 +60,5 @@ describe('socket.io connection', () => {
             player2Socket.disconnect();
         });
     });
+*/
 });

@@ -12,6 +12,13 @@ class CoordinateService {
     }
 
     static movePlayer(player) {
+        if (player && player.direction && player._segments) {
+            if ( (player.direction.x != 0 && player._segments[0].x + player.direction.x === player._segments[1].x ) ||
+                (player.direction.y != 0 && player._segments[0].y + player.direction.y === player._segments[1].y ) ) {
+                player.direction.x = -player.direction.x;
+                player.direction.y = -player.direction.y;
+            }
+        }
         player.move(this.getNextCoordinate(player.getHeadCoordinate(), player.direction));
     }
 }
