@@ -4,7 +4,7 @@
 ![Image of Snake](./public/snake.png)
 
 ### Description 
-Chaser the Python is a node js app that converts the classic single player game into a fun, multi-player, addictive game with tons of obstacles. Who doesn't enjoy an intense snake competition. 
+Chaser the Python converts the classic single player game into a fun, multi-player, addictive game with tons of obstacles. Who doesn't enjoy an intense snake competition. 
 
 ### Technologies involved
 
@@ -18,7 +18,7 @@ Chaser the Python is a node js app that converts the classic single player game 
 
 
 ### Contributing to this app
-Read the [CONTRIBUTING](./CONTRIBUTING.md) file to know how to contribute to the repository
+Read the [Contributing](./CONTRIBUTING.md) file to know how to contribute and follow rules in [Code Of Conduct](./CODE_OF_CONDUCT.md) before contributing to the repository.
 
 ### Running locally
 
