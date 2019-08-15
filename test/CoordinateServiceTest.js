@@ -26,7 +26,7 @@ describe('CoordinateService', () => {
 
         player.changeDirection(Direction.UP);
         CoordinateService.movePlayer(player);
-        expectedSegments = [new Coordinate(6, 2),
+        expectedSegments = [new Coordinate(6, 0),
                             new Coordinate(6, 1),
                             new Coordinate(5, 1),
                             new Coordinate(4, 1),
@@ -35,20 +35,20 @@ describe('CoordinateService', () => {
 
         player.changeDirection(Direction.RIGHT);
         CoordinateService.movePlayer(player);
-        expectedSegments = [new Coordinate(5, 2),
-                            new Coordinate(6, 2),
-                            new Coordinate(6, 1),
-                            new Coordinate(5, 1),
-                            new Coordinate(4, 1)];
+        expectedSegments = [new Coordinate(7, 0),
+            new Coordinate(6, 0),
+            new Coordinate(6, 1),
+            new Coordinate(5, 1),
+            new Coordinate(4, 1)];
         assert.deepEqual(player.getSegments(), expectedSegments, 'Player did not move left as expected');
 
         player.changeDirection(Direction.DOWN);
         CoordinateService.movePlayer(player);
-        expectedSegments = [new Coordinate(5, 1),
-                            new Coordinate(5, 2),
-                            new Coordinate(6, 2),
-                            new Coordinate(6, 1),
-                            new Coordinate(5, 1)];
+        expectedSegments = [new Coordinate(7, 1),
+            new Coordinate(7, 0),
+            new Coordinate(6, 0),
+            new Coordinate(6, 1),
+            new Coordinate(5, 1)];
         assert.deepEqual(player.getSegments(), expectedSegments, 'Player did not move up as expected');
         done();
     });
@@ -73,7 +73,7 @@ describe('CoordinateService', () => {
 
         player.changeDirection(Direction.UP);
         CoordinateService.movePlayer(player);
-        expectedSegments = [new Coordinate(6, 2),
+        expectedSegments = [new Coordinate(6, 0),
                             new Coordinate(6, 1),
                             new Coordinate(5, 1),
                             new Coordinate(4, 1),
