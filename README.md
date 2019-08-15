@@ -18,7 +18,7 @@ Chaser the Python is a node js app that converts the classic single player game 
 
 
 ### Contributing to this app
-
+Read the [CONTRIBUTING](./CONTRIBUTING.md) file to know how to contribute to the repository
 
 ### Running locally
 
