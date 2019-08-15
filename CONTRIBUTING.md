@@ -4,7 +4,7 @@ Chaser the Python is an open source project. Anyone is welcome to help make this
 contributions, here are a few things you should know.
 
 ## Code of Conduct
-We have an extensive documentation on the **[code of conduct](https://reactjs.org/contributing/how-to-contribute.html)**,
+We have an extensive documentation on the **[code of conduct](./CODE_OF_CONDUCT.md)**,
 please make sure you read through it carefully.
 
 ## Development Process
@@ -25,7 +25,7 @@ Every significant change is documented in the changelog file.
  ### Reporting New Issues
  Please use our issue templates for file any bugs found.
  
- ###Security Bugs
+ ### Security Bugs
  For security bugs, because of the sensitivity nature of the issues, please follow the security bug template instead.
  
 
