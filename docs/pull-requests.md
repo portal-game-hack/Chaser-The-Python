@@ -17,13 +17,13 @@
 
 ### Step 1: Fork
 
-Fork the project [on GitHub](https://github.com/satheaki/thegame/) and clone your fork
+Fork the project [on GitHub](https://github.com/portal-game-hack/Chaser-The-Python) and clone your fork
 locally.
 
 ```sh
-$ git clone https://github.com/satheaki/thegame.git
+$ git clone https://github.com/portal-game-hack/Chaser-The-Python.git
 $ cd thegame
-$ git remote add upstream https://github.com/satheaki/thegame.git
+$ git remote add upstream https://github.com/portal-game-hack/Chaser-The-Python.git
 $ git fetch upstream
 ```
 
@@ -103,7 +103,7 @@ the requirements below.
 
 Bug fixes and new features should include tests and possibly benchmarks.
 
-Contributors guide: https://github.com/electron/electron/blob/master/CONTRIBUTING.md
+Contributors guide: https://github.com/portal-game-hack/Chaser-The-Python/CONTRIBUTING.md
 -->
 ```
 
